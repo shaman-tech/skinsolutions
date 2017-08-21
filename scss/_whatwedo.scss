@@ -1,0 +1,53 @@
+
+.inner_col{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-box-shadow: 3px 3px 3px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 10px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  #inner_img1{
+    background-image: url('../img/whatwedo/Cosmetic_Procedures.png');
+    @include background-cover;
+    background-position: center;
+    height: 60%;
+
+  }
+  #inner_img2{
+    background-image: url('../img/whatwedo/General_Dermatology.png');
+    @include background-cover;
+    background-position: center;
+    height: 60%;
+
+  }
+  #inner_img3{
+    background-image: url('../img/whatwedo/Plastic_surgery\ copy.png');
+    @include background-cover;
+    background-position: center;
+    height: 60%;
+
+  }
+  h4{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+
+  }
+  p{
+    padding: 10px 10px;
+    text-align:center;
+    font-size: 15px;
+    font-weight: 300;
+    color: $gray-base;
+  }
+}
+
+#whatwedo{
+  h1{
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 30px;
+  }
+}

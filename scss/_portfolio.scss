@@ -1,0 +1,118 @@
+// Styling for the portfolio section
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+  .portfolio-box-caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    background: fade-out($theme-primary, .1);
+    @include transition-all;
+    .portfolio-box-caption-content {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+      text-align: center;
+      .project-category,
+      .project-name {
+        padding: 0 15px;
+        @include sans-serif-font;
+      }
+      .project-category {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .project-name {
+        font-size: 14px;
+      }
+    }
+  }
+  &:hover {
+    .portfolio-box-caption {
+      opacity: 1;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+  @media (min-width: 768px) {
+    .portfolio-box-caption {
+      .portfolio-box-caption-content {
+        .project-category {
+          font-size: 16px;
+        }
+        .project-name {
+          font-size: 14px;
+        }
+        .project-category{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+.popup-gallery{
+  padding-top:50px;
+}
+#portfolio{
+  h1{
+    margin-top:50px;
+  }
+}
+
+.white-pop {
+  position: relative;
+  background: #FFF;
+  width: auto;
+  max-width: 850px;
+  margin: 0 auto;
+  border-radius: 5px;
+  .img_col{
+    border-radius: 5px;
+  }
+  #img1{
+    background-image: url(../img/doctors/pp_althea.jpg);
+    @include background-cover;
+    background-position: center;
+  }
+  #img2{
+    background-image: url(../img/doctors/pp_kingsley.jpg);
+    @include background-cover;
+    background-position: center;
+  }
+  #img3{
+    background-image: url(../img/doctors/pp_martin.jpg);
+    @include background-cover;
+    background-position: center;
+  }
+  #img4{
+    background-image: url(../img/doctors/pp_henry.jpg);
+    @include background-cover;
+    background-position: center;
+  }
+  #img5{
+    background-image: url(../img/doctors/pp_norman.jpg);
+    @include background-cover;
+    background-position: center;
+  }
+  .img_col_caption{
+
+        text-align: justify;
+        margin-left: -10px;
+        padding: 0 20px;
+        padding-top:40px;
+        font-size:14px;
+
+
+  }
+}
