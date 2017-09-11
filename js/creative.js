@@ -86,10 +86,13 @@
         //     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         // }
         delegate: 'a',
+        mainClass: 'mfp-img-mobile',
         type: 'ajax',
         tLoading: 'Loading image #%curr%...',
         gallery:{
-          enabled: false,
+          enabled:true,
+          navigateByImgClick: true,
+          preload:[0,1]
         },
         ajax: {
           // markup:   "<div class='white-pop'><div class='mfp-close'></div>"+

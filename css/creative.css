@@ -230,6 +230,26 @@ header.masthead {
   .service-box h3 {
     font-size: 22px; }
 
+.sr-icons {
+  width: 60px;
+  height: 60px; }
+
+#d_icon {
+  background-image: url("../img/services/cream.png");
+  background-size: cover; }
+
+#cp_icon {
+  background-image: url("../img/services/face-mask.png");
+  background-size: cover; }
+
+#ps_icon {
+  background-image: url("../img/services/plastic-surgery.png");
+  background-size: cover; }
+
+#gs_icon {
+  background-image: url("../img/services/surgeon.png");
+  background-size: cover; }
+
 .portfolio-box {
   position: relative;
   display: block;
@@ -291,6 +311,8 @@ header.masthead {
   border-radius: 5px; }
   .white-pop .img_col {
     border-radius: 5px; }
+  .white-pop .row {
+    height: 500px; }
   .white-pop #img1 {
     background-image: url(../img/doctors/pp_althea.jpg);
     -webkit-background-size: cover;
@@ -329,9 +351,33 @@ header.masthead {
   .white-pop .img_col_caption {
     text-align: justify;
     margin-left: -10px;
-    padding: 0 20px;
-    padding-top: 40px;
+    padding: 50px 20px;
     font-size: 14px; }
+    .white-pop .img_col_caption h5 {
+      font-weight: 600;
+      padding-top: 20px;
+      text-align: center; }
+    .white-pop .img_col_caption a {
+      text-align: center;
+      position: relative;
+      top: 30px; }
+    .white-pop .img_col_caption .no_bio {
+      text-align: center;
+      margin-top: 30%;
+      margin-bottom: 30%; }
+      .white-pop .img_col_caption .no_bio span {
+        background-color: black;
+        color: white;
+        padding: 10px 10px; }
+  .white-pop .cap_adj h5 {
+    font-weight: 600;
+    text-align: center;
+    padding-top: 0; }
+    .white-pop .cap_adj h5 span {
+      color: #000000;
+      font-size: 13px; }
+  .white-pop .cap_adj p {
+    font-size: 15px; }
 
 .call-to-action {
   padding: 50px 0; }
@@ -517,3 +563,14 @@ header.masthead {
   text-align: center;
   margin-top: -60px;
   margin-bottom: 30px; }
+
+#footer .col-lg-4 {
+  float: left; }
+  #footer .col-lg-4 h6 {
+    text-align: center; }
+
+#footer .serv_list ul li {
+  display: block;
+  padding-top: 15px;
+  padding-left: 20px;
+  list-style: none; }
