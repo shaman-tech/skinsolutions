@@ -80,6 +80,15 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #222222; }
 
+.red {
+  color: red; }
+
+.form-area {
+  background-color: #FAFAFA;
+  padding: 10px 40px 60px;
+  margin: 10px 0px 60px;
+  border: 1px solid GREY; }
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -564,13 +573,24 @@ header.masthead {
   margin-top: -60px;
   margin-bottom: 30px; }
 
-#footer .col-lg-4 {
-  float: left; }
-  #footer .col-lg-4 h6 {
-    text-align: center; }
+.footer {
+  background-color: #8bbc3f; }
 
-#footer .serv_list ul li {
-  display: block;
-  padding-top: 15px;
-  padding-left: 20px;
-  list-style: none; }
+#footer {
+  font-family: roboto;
+  font-size: 14px; }
+  #footer .col-lg-4 {
+    float: left; }
+    #footer .col-lg-4 h5 {
+      text-align: center; }
+  #footer .serv_list ul li {
+    display: block;
+    padding-top: 10px;
+    list-style: none;
+    text-align: justify; }
+  #footer #loc p {
+    text-align: center;
+    padding-top: 10px; }
+
+.foot-btn {
+  background-color: #ede73d; }

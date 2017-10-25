@@ -1,7 +1,14 @@
+.footer{
+  background-color: $theme-primary;
+}
+
 #footer{
+  font-family: roboto;
+  font-size: 14px;
+
   .col-lg-4{
     float:left;
-    h6{
+    h5{
       text-align:center;
     }
   }
@@ -9,10 +16,20 @@
     ul{
       li{
         display:block;
-        padding-top:15px;
-        padding-left: 20px;
+        padding-top:10px;
         list-style: none;
+        text-align: justify;
+
       }
     }
   }
+  #loc{
+    p{
+      text-align: center;
+      padding-top:10px;
+    }
+  }
+}
+.foot-btn{
+  background-color: $theme-secondary;
 }
