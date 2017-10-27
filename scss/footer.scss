@@ -1,11 +1,17 @@
 .footer{
   background-color: $theme-primary;
+  color:white;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 #footer{
   font-family: roboto;
   font-size: 14px;
 
+  h2{
+    text-align:center;
+  }
   .col-lg-4{
     float:left;
     h5{
@@ -32,4 +38,23 @@
 }
 .foot-btn{
   background-color: $theme-secondary;
+  margin-left: -31px;
+  margin-top: 0px;
+  height: 27px;
+  margin-top:15px;
+}
+
+.foot-input{
+
+  width:100%;
+  margin-top:15px;
+}
+.icon-con{
+  float: right;
+  margin-right: -200px;
+}
+.sm_icons{
+  width:35px;
+  margin-left:10px;
+  margin-top:5px;
 }

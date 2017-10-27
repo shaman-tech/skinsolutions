@@ -90,7 +90,7 @@ body {
   border: 1px solid GREY; }
 
 #mainNav {
-  border-color: rgba(34, 34, 34, 0.05);
+  border-bottom: none;
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
@@ -174,6 +174,7 @@ body {
 header.masthead {
   position: relative;
   width: 100%;
+  height: 100vh !important;
   min-height: auto;
   text-align: center;
   color: white;
@@ -201,9 +202,12 @@ header.masthead {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 20px;
-      color: rgba(255, 255, 255, 0.7); }
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      margin-left: 20px !important;
+      width: 400px; }
     header.masthead .header-content .header-content-inner a {
-      margin-left: 120px; }
+      margin-left: 140px; }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -222,6 +226,129 @@ header.masthead {
           header.masthead .header-content .header-content-inner h1 {
             font-size: 50px; }
           header.masthead .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-right: auto;
+            margin-left: auto; } }
+
+header.masthead2 {
+  position: relative;
+  width: 100%;
+  height: 100vh !important;
+  min-height: auto;
+  text-align: center;
+  color: white;
+  background-image: url("../img/hero_header2.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.masthead2 .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center; }
+    header.masthead2 .header-content .header-content-inner h3 {
+      font-size: 25px;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      color: #8bbc3f;
+      width: 300px;
+      margin-left: 40px;
+      margin-top: -30px;
+      margin-bottom: 30px;
+      text-align: center; }
+    header.masthead2 .header-content .header-content-inner hr {
+      margin: 30px auto; }
+    header.masthead2 .header-content .header-content-inner p {
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.7); }
+    header.masthead2 .header-content .header-content-inner a {
+      margin-left: 120px; }
+  @media (min-width: 768px) {
+    header.masthead2 {
+      height: 100%;
+      min-height: 600px; }
+      header.masthead2 .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        header.masthead2 .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-right: auto;
+          margin-left: auto; }
+          header.masthead2 .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          header.masthead2 .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-right: auto;
+            margin-left: auto; } }
+
+header.masthead3 {
+  position: relative;
+  width: 100%;
+  height: 100vh !important;
+  min-height: auto;
+  text-align: center;
+  color: white;
+  background-image: url("../img/hero_header3.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.masthead3 .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center; }
+    header.masthead3 .header-content .header-content-inner h3 {
+      font-size: 25px;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      width: 356px;
+      color: black;
+      text-align: center; }
+    header.masthead3 .header-content .header-content-inner hr {
+      margin: 30px auto; }
+    header.masthead3 .header-content .header-content-inner p {
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.7); }
+    header.masthead3 .header-content .header-content-inner a {
+      margin-left: 120px; }
+  @media (min-width: 768px) {
+    header.masthead3 {
+      height: 100%;
+      min-height: 600px; }
+      header.masthead3 .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        header.masthead3 .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-right: auto;
+          margin-left: auto; }
+          header.masthead3 .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          header.masthead3 .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
@@ -574,11 +701,16 @@ header.masthead {
   margin-bottom: 30px; }
 
 .footer {
-  background-color: #8bbc3f; }
+  background-color: #8bbc3f;
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 50px; }
 
 #footer {
   font-family: roboto;
   font-size: 14px; }
+  #footer h2 {
+    text-align: center; }
   #footer .col-lg-4 {
     float: left; }
     #footer .col-lg-4 h5 {
@@ -593,4 +725,21 @@ header.masthead {
     padding-top: 10px; }
 
 .foot-btn {
-  background-color: #ede73d; }
+  background-color: #ede73d;
+  margin-left: -31px;
+  margin-top: 0px;
+  height: 27px;
+  margin-top: 15px; }
+
+.foot-input {
+  width: 100%;
+  margin-top: 15px; }
+
+.icon-con {
+  float: right;
+  margin-right: -200px; }
+
+.sm_icons {
+  width: 35px;
+  margin-left: 10px;
+  margin-top: 5px; }
