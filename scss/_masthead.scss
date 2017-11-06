@@ -78,7 +78,7 @@ header.masthead2 {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url('../img/hero_header2.jpg');
+  background-image: url('../img/ss2.jpg');
   background-position: center;
   background-attachment: fixed;
   @include background-cover;
@@ -94,7 +94,7 @@ header.masthead2 {
         margin-top: 0;
         margin-bottom: 10px;
         text-transform: uppercase;
-        color: $theme-primary;
+        color: #ffff;
         width: 300px;
         margin-left: 40px;
         margin-top: -30px;
@@ -152,7 +152,7 @@ header.masthead3 {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url('../img/hero_header3.jpg');
+  background-image: url('../img/ss3.jpg');
   background-position: center;
   background-attachment: fixed;
   @include background-cover;
@@ -167,9 +167,10 @@ header.masthead3 {
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 10px;
+        margin-left:30px;
         text-transform: uppercase;
         width: 356px;
-        color: black;
+        color: #ffff;
         text-align: center;
       }
       hr {
@@ -182,7 +183,7 @@ header.masthead3 {
         color: fade-out(white, .3);
       }
       a{
-        margin-left: 120px;
+        margin-left: 140px;
         
       }
     }

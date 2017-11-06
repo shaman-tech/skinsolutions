@@ -238,7 +238,7 @@ header.masthead2 {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/hero_header2.jpg");
+  background-image: url("../img/ss2.jpg");
   background-position: center;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -256,7 +256,7 @@ header.masthead2 {
       margin-top: 0;
       margin-bottom: 10px;
       text-transform: uppercase;
-      color: #8bbc3f;
+      color: #ffff;
       width: 300px;
       margin-left: 40px;
       margin-top: -30px;
@@ -301,7 +301,7 @@ header.masthead3 {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/hero_header3.jpg");
+  background-image: url("../img/ss3.jpg");
   background-position: center;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -318,9 +318,10 @@ header.masthead3 {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 10px;
+      margin-left: 30px;
       text-transform: uppercase;
       width: 356px;
-      color: black;
+      color: #ffff;
       text-align: center; }
     header.masthead3 .header-content .header-content-inner hr {
       margin: 30px auto; }
@@ -330,7 +331,7 @@ header.masthead3 {
       margin-bottom: 20px;
       color: rgba(255, 255, 255, 0.7); }
     header.masthead3 .header-content .header-content-inner a {
-      margin-left: 120px; }
+      margin-left: 140px; }
   @media (min-width: 768px) {
     header.masthead3 {
       height: 100%;
