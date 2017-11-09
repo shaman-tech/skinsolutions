@@ -714,7 +714,7 @@ header.masthead3 {
   font-size: 14px;
   margin-top: -60px; }
   #footer #f356aedd65b77015bf141886b07d3f1383ce057172cdb8fbc17d40355e336261 {
-    margin: 15px 0 0 30px; }
+    margin: 15px 0 0 30px !important; }
   #footer h2 {
     text-align: center; }
   #footer .col-lg-4 {
