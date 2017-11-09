@@ -195,7 +195,9 @@ header.masthead {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 10px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      width: 380px;
+      text-align: center; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
@@ -207,7 +209,7 @@ header.masthead {
       margin-left: 20px !important;
       width: 400px; }
     header.masthead .header-content .header-content-inner a {
-      margin-left: 140px; }
+      margin-left: 120px; }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -709,7 +711,8 @@ header.masthead3 {
 
 #footer {
   font-family: roboto;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-top: -60px; }
   #footer h2 {
     text-align: center; }
   #footer .col-lg-4 {
