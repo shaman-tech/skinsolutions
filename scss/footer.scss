@@ -19,12 +19,15 @@
     }
   }
   .serv_list{
+    padding:0;
+    margin-top:15px;
     ul{
       li{
         display:block;
+        
         padding-top:10px;
         list-style: none;
-        text-align: justify;
+        text-align: center;
 
       }
     }
@@ -50,11 +53,22 @@
   margin-top:15px;
 }
 .icon-con{
-  float: right;
-  margin-right: -200px;
+  width: 120px;
+  position:absolute;
+  left: 88%;
+  top:0;
+  margin-top:0;
 }
 .sm_icons{
-  width:35px;
-  margin-left:10px;
-  margin-top:5px;
+  width: 25px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.foot_bot{
+  span{
+    font-size:15px;
+    position:relative;
+    top:10px;
+  }
 }

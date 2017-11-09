@@ -716,11 +716,14 @@ header.masthead3 {
     float: left; }
     #footer .col-lg-4 h5 {
       text-align: center; }
-  #footer .serv_list ul li {
-    display: block;
-    padding-top: 10px;
-    list-style: none;
-    text-align: justify; }
+  #footer .serv_list {
+    padding: 0;
+    margin-top: 15px; }
+    #footer .serv_list ul li {
+      display: block;
+      padding-top: 10px;
+      list-style: none;
+      text-align: center; }
   #footer #loc p {
     text-align: center;
     padding-top: 10px; }
@@ -737,10 +740,18 @@ header.masthead3 {
   margin-top: 15px; }
 
 .icon-con {
-  float: right;
-  margin-right: -200px; }
+  width: 120px;
+  position: absolute;
+  left: 88%;
+  top: 0;
+  margin-top: 0; }
 
 .sm_icons {
-  width: 35px;
+  width: 25px;
   margin-left: 10px;
-  margin-top: 5px; }
+  margin-top: 8px; }
+
+.foot_bot span {
+  font-size: 15px;
+  position: relative;
+  top: 10px; }
