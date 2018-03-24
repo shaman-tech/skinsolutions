@@ -137,8 +137,8 @@ body {
         -o-background-size: cover;
         background-size: cover;
         background-position: center;
-        width: 270px;
-        height: 70px; }
+        width: 400px;
+        height: 100px; }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: white; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -387,6 +387,10 @@ header.masthead3 {
 
 #gs_icon {
   background-image: url("../img/services/surgeon.png");
+  background-size: cover; }
+
+#g_icon {
+  background-image: url("../img/services/vagina.png");
   background-size: cover; }
 
 .portfolio-box {
