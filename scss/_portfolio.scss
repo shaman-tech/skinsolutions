@@ -108,6 +108,11 @@
     @include background-cover;
     background-position: center;
   }
+  #img6{
+    background-image: url(../img/doctors/pp_terry.jpg);
+    @include background-cover;
+    background-postion: center;
+  }
   .img_col_caption{
 
         text-align: justify;

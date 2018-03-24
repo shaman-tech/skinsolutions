@@ -491,6 +491,13 @@ header.masthead3 {
     -o-background-size: cover;
     background-size: cover;
     background-position: center; }
+  .white-pop #img6 {
+    background-image: url(../img/doctors/pp_terry.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-postion: center; }
   .white-pop .img_col_caption {
     text-align: justify;
     margin-left: -10px;
