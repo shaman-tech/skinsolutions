@@ -55,7 +55,8 @@
       color: fade-out(white, .3);
       background-image: url(../img/logos/SS-logo-white.png);
       background-repeat: no-repeat;
-      @include background-cover;
+    //  @include background-cover;
+      background-size: 100%;
       background-position: center;
       width: 400px;
       height: 100px;

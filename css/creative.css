@@ -132,10 +132,7 @@ body {
         color: rgba(255, 255, 255, 0.7);
         background-image: url(../img/logos/SS-logo-white.png);
         background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background-size: 100%;
         background-position: center;
         width: 400px;
         height: 100px; }
@@ -390,7 +387,7 @@ header.masthead3 {
   background-size: cover; }
 
 #g_icon {
-  background-image: url("../img/services/vagina.png");
+  background-image: url("../img/services/gynaecology.png");
   background-size: cover; }
 
 .portfolio-box {
